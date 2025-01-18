@@ -1,0 +1,6 @@
+nav a.active {
+  color: aliceblue;
+  background: orchid;
+  padding: 5px 12px;
+  border-radius: 5px;
+}

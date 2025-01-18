@@ -20,6 +20,9 @@ const Navbar = () => {
         <Link style={navStyle} to="/users">
           Users
         </Link>
+        <Link style={navStyle} to="/posts">
+          Posts
+        </Link>
       </nav>
     </div>
   );

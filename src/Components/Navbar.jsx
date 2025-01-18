@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const navStyle = {
     marginRight: "20px",
@@ -6,15 +8,18 @@ const Navbar = () => {
     <div>
       <h2>Navbar</h2>
       <nav>
-        <a style={navStyle} href="/">
+        <Link style={navStyle} to="/">
           Home
-        </a>
-        <a style={navStyle} href="/about">
+        </Link>
+        <Link style={navStyle} to="/about">
           About
-        </a>
-        <a style={navStyle} href="/Contact">
+        </Link>
+        <Link style={navStyle} to="/contact">
           Contact Us
-        </a>
+        </Link>
+        <Link style={navStyle} to="/users">
+          Users
+        </Link>
       </nav>
     </div>
   );

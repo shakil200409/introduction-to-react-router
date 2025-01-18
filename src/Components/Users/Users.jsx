@@ -4,7 +4,6 @@ import "./Users.css";
 
 const Users = () => {
   const users = useLoaderData();
-  console.log(users);
 
   return (
     <div>
